@@ -14,7 +14,7 @@ function Navbar() {
             <div class="collapse navbar-collapse " id="navbarSupportedContent" style={{paddingRight: "100px"}}>
             <ul class="navbar-nav ms-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="./about" style={{color:"white"}} >About Me</a>
+                <a class="nav-link" href="https://wwww.nickdammy.github.io/about" style={{color:"white"}} >About Me</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="https://www.linkedin.com/in/damiajayi" style={{color:"white"}}>LinkedIn</a>
