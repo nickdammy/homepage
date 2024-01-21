@@ -9,28 +9,32 @@ import React from "react";
 import Navbar from "./components/Navbar";
 
 import {
-	BrowserRouter as Router,
+	
 	Routes,
 	Route,
+	HashRouter,
 } from "react-router-dom";
 
 import About from "./pages/about";
 import Homepage from "./pages/homepage";
+import Contact from "./pages/contact";
+import Experience from "./pages/experience";
 
 function App() {
 	return (
-		<Router>
+		
             <div>
                 <Navbar />
-            </div>
+            
 			
 			<Routes>
-                <Route path="/homepage" element={<Homepage />} />
-				<Route path="/homapage/about" element={<About />} />
-            
+                <Route path="/" element={<Homepage />} />
+				<Route path="/about" element={<About />} />
+				<Route path="/contact" element={<Contact/>} />
+				<Route path="/experience" element={<Experience/>} />
 			</Routes>
             
-		</Router>
+			</div>
         
 	);
 }
