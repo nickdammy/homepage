@@ -21,7 +21,7 @@ function Navbar() {
               </li>
               
               <li className="nav-item">
-                <a style={{color:"white"}} className="nav-link" href="/homepage/#/experience">Contact Me</a>
+                <a style={{color:"white"}} className="nav-link" href="/homepage/#/experience">Experiences</a>
               </li>
             </ul>
             </div>
