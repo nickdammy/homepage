@@ -14,14 +14,14 @@ function Navbar() {
             <div className="collapse navbar-collapse " id="navbarSupportedContent" style={{paddingRight: "100px"}}>
             <ul className="navbar-nav ms-auto">
               <li className="nav-item active">
-                <a className="nav-link" href="#/about" style={{color:"white"}} >About Me</a>
+                <a className="nav-link" href="/#/about" style={{color:"white"}} >About Me</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="https://www.linkedin.com/in/damiajayi" style={{color:"white"}}>LinkedIn</a>
               </li>
               
               <li className="nav-item">
-                <a style={{color:"white"}} className="nav-link" href="#/experience">Contact Me</a>
+                <a style={{color:"white"}} className="nav-link" href="/#/experience">Contact Me</a>
               </li>
             </ul>
             </div>
