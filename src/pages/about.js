@@ -1,7 +1,8 @@
 function About() {
 	return (
+		
 		<div>
-            This is the About me pagesdss
+            <h2> This is the About me page (Under development) </h2>
         </div>
 	);
 }
