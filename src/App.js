@@ -1,7 +1,9 @@
+
 // Bootstrap CSS
 import "bootstrap/dist/css/bootstrap.min.css";
 // Bootstrap Bundle JS
 import "bootstrap/dist/js/bootstrap.bundle.min";
+
 
 // Filename - App.js
 
@@ -12,7 +14,7 @@ import {
 	
 	Routes,
 	Route,
-	HashRouter,
+	//HashRouter,
 } from "react-router-dom";
 
 import About from "./pages/about";
