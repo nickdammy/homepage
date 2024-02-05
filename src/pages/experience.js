@@ -23,9 +23,18 @@ function Experience(){
                     <div className="col-sm-3 d-flex justify-content-center">
                         <ProfileCard title="eOne Solutions" handle="@eOne" text="Software Developer" image={EonePic}/>
                     </div>
-
                 </div>
             </div>
+
+            <style>
+            {`
+            @media (max-width: 576px) {
+                .col-sm-3 {
+                    margin-bottom: 15px;
+                }
+            }
+            `}
+            </style>
             
         </div>
         
