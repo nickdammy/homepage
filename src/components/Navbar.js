@@ -13,7 +13,7 @@ function NavbarFun() {
         <Navbar.Collapse id="responsive-navbar-nav" >
           <Nav className="ms-auto">
             
-            <Nav.Link href="/homepage/#/about" style={{color: "white"}}>About</Nav.Link>
+            <Nav.Link href="/homepage/#/about" style={{color: "white"}}>About Me</Nav.Link>
             <Nav.Link href="/homepage/#/experience" style={{color: "white"}}>Experiences</Nav.Link>
             {/* <NavDropdown title="Experiences" id="collasible-nav-dropdown" style={{color: "white"}}>
               <NavDropdown.Item href="#action/3.1">Work</NavDropdown.Item>

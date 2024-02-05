@@ -1,23 +1,26 @@
 function Homepage(){
 
-    
+    const currentDate = new Date();
+    const month = currentDate.toLocaleString('default', { month: 'long' });
+
     return (
-        <div style={{padding:"15px"}}>
+        <div style={{padding:"15px", height: "100vh"}}>
             <h2 style={{textAlign:'center' }}>
                 <p>Welcome,</p> 
-                <p> Today is {new Date().toLocaleDateString()} and the time is: {new Date().toLocaleTimeString()} </p>
+                <p> Today is {month} {currentDate.getDate()}, {currentDate.getFullYear()}, time is: {currentDate.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })} </p>
             </h2>
-            <p style={{textAlign:'center' }}>
-                 This website is made using React, HTML, CSS, and Javascript. I am developing this website to showcase my skills and experiences.
-                 I peridocially update this website with new features and components.
-                 If there is a feature you would like to see, please let me know via <a href="mailto:nickdammy2@gmail.com">email</a>.
+            <p style={{ fontSize: '20px', margin:"40px"}}>
+                This website is built by Oluwadamilola Ajayi using industry-standard technologies such as React, HTML, CSS, and JavaScript. It is deployed and hosted on GitHub Pages, ensuring reliable and accessible access for visitors. The purpose of this website is to showcase my professional skills, experiences, and accomplishments.
 
-                 </p>
-            <span style={{textAlign:'center' }}>
+                I am committed to continuously enhancing this website by adding new features and components. If you have any suggestions or specific features you would like to see, please feel free to reach out to me via email at <a href="mailto:nickdammy2@gmail.com">nickdammy2@gmail.com</a>.
+
+                Thank you for visiting and I look forward to connecting with you.
+            </p>
+            <span style={{textAlign:'center', fontSize: '18px', fontStyle: 'italic', color: 'green' }}>
                 <p> Feel free to navigate through the website to learn more about me and my experiences. </p>
             </span>
+            
         </div>
-
     );
 }
 
